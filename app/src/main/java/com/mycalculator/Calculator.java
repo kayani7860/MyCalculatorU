@@ -14,6 +14,7 @@ public class Calculator {
     }
 
     public static int subtract(int x, int y) {
+        // subtract two numbers...
         return x - y;
     }
 
@@ -23,7 +24,7 @@ public class Calculator {
 
     public static int multiply(int x, int y) {
         //new code for multiplying two integer numbers
-        return x + y;
+        return x * y;
 
     }
 
