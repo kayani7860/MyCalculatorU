@@ -38,16 +38,16 @@ public class MainActivity extends AppCompatActivity {
 
         switch (ops) {
             case "Addition":
-                result = Calculator.add(firstNum, secondNum);
+                result = firstNum+secondNum;
                 break;
             case "Subtraction":
-                result = Calculator.subtract(firstNum, secondNum);
+                result = firstNum-secondNum;
                 break;
             case "Multiplication":
-                result = Calculator.multiply(firstNum, secondNum);
+                result = firstNum*secondNum;
                 break;
             case "Division":
-                result = Calculator.divide(firstNum, secondNum);
+                result = firstNum/secondNum;
                 break;
         }
 
