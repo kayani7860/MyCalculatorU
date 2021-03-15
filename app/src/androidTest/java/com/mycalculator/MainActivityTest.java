@@ -114,7 +114,7 @@ public class MainActivityTest {
                 is(op))
         ).perform(click());
         Espresso.pressBack();
-
+        //GUI Testing for calculator
         onView(withId(R.id.calc_btn)).perform(click());
         onView(withId(R.id.result_tv)).check(matches(withText("Infinity")));
     }
